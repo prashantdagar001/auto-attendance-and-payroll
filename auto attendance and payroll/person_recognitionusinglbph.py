@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Load the reference image for the person
-reference_image_path0 = "test_photo2.png"
+reference_image_path0 = "test_photo1.png"
 reference_image0 = cv2.imread(reference_image_path0, cv2.IMREAD_GRAYSCALE)
 reference_image_path1 = "test_photo.png"
 reference_image1 = cv2.imread(reference_image_path1, cv2.IMREAD_GRAYSCALE)
